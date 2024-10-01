@@ -1,0 +1,2 @@
+all:
+	gcc -o program main.c src1.c

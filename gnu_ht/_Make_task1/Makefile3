@@ -1,0 +1,7 @@
+OBJS = main.o src1.o
+
+all: $(OBJS)
+	gcc $(OBJS) -o program
+
+%.o: %.c
+	gcc -c $< -o $@
